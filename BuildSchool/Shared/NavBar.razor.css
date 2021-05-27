@@ -1,0 +1,12 @@
+.navbar ul {
+  margin: 0;
+}
+.navbar ul .nav-link {
+  color: #fff;
+  font-size: 13px;
+}
+.navbar ul .nav-link:hover {
+  color: #428587;
+}
+
+/*# sourceMappingURL=NavBar.razor.css.map */

@@ -1,0 +1,26 @@
+﻿@using AntDesign
+@using BuildSchool.Models
+<CarouselSlick>
+    <div class="slick-page" style="@ImagePath">
+        <div class="text">
+            <h2 class="@(Data.TitleHasBgc ? "has-bgc" : string.Empty)">@Data.Title</h2>
+            <h3 class="@(Data.SubTitleHasBgc ? "has-bgc" : string.Empty)">@Data.SubTitle</h3>
+        </div>
+        <ClassLink IsEnglish="@Data.IsEnglish"></ClassLink>
+    </div>
+</CarouselSlick>
+
+@code {
+    private string _imagePath;
+    
+    [Parameter]
+    public BannerData Data { get; set; }
+    
+    [Parameter]
+    public string ImagePath
+    {
+        get => _imagePath;
+        set => _imagePath = $"background-image: url(\"{value}\")";
+    }
+
+}

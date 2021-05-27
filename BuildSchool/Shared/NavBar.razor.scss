@@ -1,0 +1,12 @@
+﻿.navbar ul {
+  margin: 0;
+
+  .nav-link {
+    color: #fff;
+    font-size: 13px;
+
+    &:hover {
+      color: #428587;
+    }
+  }
+}

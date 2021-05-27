@@ -1,0 +1,24 @@
+.slick-page {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  color: #ffffff;
+}
+.text h2 {
+  font-size: 37px;
+  color: #ffffff;
+}
+.text h3 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.has-bgc {
+  background-color: #3d9be9;
+  opacity: 60%;
+}
+
+/*# sourceMappingURL=SlickPage.razor.css.map */

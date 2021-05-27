@@ -1,0 +1,15 @@
+ul > li > a {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  color: #ffffff;
+  background-color: #3d9be9;
+  font-size: 15px;
+  opacity: 60%;
+}
+ul > li > a:hover {
+  background-color: #045184;
+  transition: background-color 0.5s ease;
+}
+
+/*# sourceMappingURL=ClassLink.razor.css.map */

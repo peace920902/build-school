@@ -11,4 +11,117 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\sample-data\weather.json" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\11062b_444dc1d6c81b4ceda843b1ffa3ea5958f000.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\11062b_482865fdd2424d17828b72e1e1db16f7f000.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\5a71f2_07310aa55e4a4c869120a07bb375edf8_mv2_d_2500_1667_s_2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\5a71f2_08f86cfb9419470fba577b0807ee1b20_mv2_d_1920_1442_s_2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\5a71f2_3726256a5da840e8b1df0e988639bc67_mv2_d_2800_1573_s_2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\5a71f2_e1e737197e9744cd8c7ea8b8a65d0f67_mv2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-0.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-10.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-11.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-12.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-13.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-14.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-15.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-16.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-17.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-18.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-19.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-20.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-21.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-22.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-23.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-24.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-25.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-26.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-3.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-4.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-5.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-6.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-7.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-8.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\asset-9.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\11062b_444dc1d6c81b4ceda843b1ffa3ea5958f000.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\11062b_482865fdd2424d17828b72e1e1db16f7f000.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\5a71f2_07310aa55e4a4c869120a07bb375edf8_mv2_d_2500_1667_s_2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\5a71f2_08f86cfb9419470fba577b0807ee1b20_mv2_d_1920_1442_s_2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\5a71f2_3726256a5da840e8b1df0e988639bc67_mv2_d_2800_1573_s_2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\5a71f2_e1e737197e9744cd8c7ea8b8a65d0f67_mv2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-0.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-10.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-11.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-12.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-13.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-14.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-15.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-16.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-17.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-18.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-19.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-20.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-21.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-22.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-23.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-24.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-25.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-26.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-3.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-4.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-5.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-6.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-7.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-8.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\css\images\asset-9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Shared\BaseComponent.cs">
+      <DependentUpon>BaseComponent.razor</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Shared\Logo.razor.scss">
+      <DependentUpon>Logo.razor</DependentUpon>
+    </None>
+    <None Update="Shared\NavBar.razor.scss">
+      <DependentUpon>NavBar.razor</DependentUpon>
+    </None>
+    <None Update="Shared\ClassLink.sass">
+      <DependentUpon>ClassLink.razor</DependentUpon>
+    </None>
+    <None Update="Shared\SlickPage.razor.scss">
+      <DependentUpon>SlickPage.razor</DependentUpon>
+    </None>
+    <None Update="Shared\SlickPage.razor.css">
+      <DependentUpon>SlickPage.razor.scss</DependentUpon>
+    </None>
+    <None Update="Shared\ClassLink.razor.css">
+      <DependentUpon>ClassLink.razor.scss</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Shared\Logo.razor.css">
+      <DependentUpon>Logo.razor.scss</DependentUpon>
+    </Content>
+    <Content Update="Shared\NavBar.razor.css">
+      <DependentUpon>NavBar.razor.scss</DependentUpon>
+    </Content>
+    <Content Update="Shared\ClassLink.razor.scss">
+      <DependentUpon>ClassLink.razor</DependentUpon>
+    </Content>
+  </ItemGroup>
+
 </Project>

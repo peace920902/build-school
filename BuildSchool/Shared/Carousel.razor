@@ -1,0 +1,32 @@
+﻿@using BuildSchool.Models
+<div>
+    <AntDesign.Carousel Autoplay="TimeSpan.FromSeconds(10)">
+        @foreach (var slick in _bannerData)
+        {
+            <SlickPage Data="@slick" ImagePath="@(slick.ImgPath)"></SlickPage>
+        }
+    </AntDesign.Carousel>
+</div>
+
+<style>
+    .ant-carousel .slick-slide {
+            text-align: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+</style>
+
+
+@code {
+
+    private readonly List<BannerData> _bannerData = new List<BannerData>()
+    {
+        new BannerData()
+        {
+            Title = @<span>軟體工程師的路上<br/>有人帶</span>,
+            SubTitle = @<span>START CODING AND GET COACHED FROM MENTORS</span>,
+            ImgPath = "images/banner-01.png"
+        }
+    };
+
+}

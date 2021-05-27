@@ -1,0 +1,33 @@
+﻿@inherits BaseComponent
+
+<ul class="nav navbar-light m-0 justify-content-between @Class">
+    @if (IsEnglish)
+    {
+        <li class="nav-item">
+            <a href="#">Apply Now (Taipei Class)</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Apply Now (HsinChu Class)</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">Apply Now</a>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a href="#">台北班簡介及報名(2021/5/3開課)</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">新竹班簡介(2021/11月後)</a>
+        </li>
+        <li class="nav-item">
+            <a href="#">招生說明會報名</a>
+        </li>
+    }
+</ul>
+
+@code {
+    [Parameter]
+    public bool IsEnglish { get; set; }
+}
