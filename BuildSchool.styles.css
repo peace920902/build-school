@@ -1,134 +1,84 @@
-/* /Shared/MainLayout.razor.rz.scp.css */
-.page[b-u3sxtmbndz] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+/* /Shared/ClassLink.razor.rz.scp.css */
+ul > li > a[b-nprtiicbst] {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  color: #ffffff;
+  background-color: #3d9be9;
+  font-size: 15px;
+  opacity: 60%;
+}
+ul > li > a:hover[b-nprtiicbst] {
+  background-color: #045184;
+  transition: background-color 0.5s ease;
 }
 
-.main[b-u3sxtmbndz] {
-    flex: 1;
+/*# sourceMappingURL=ClassLink.razor.css.map */
+/* /Shared/Logo.razor.rz.scp.css */
+.logo[b-abdivpsonz] {
+  display: flex;
+}
+.logo .text[b-abdivpsonz] {
+  padding-top: 13px;
+  margin-left: 13px;
+  text-align: center;
+}
+.logo .text h1[b-abdivpsonz] {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  color: #fff;
+}
+.logo .text h2[b-abdivpsonz] {
+  margin-top: 13px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #fff;
+}
+.logo a[b-abdivpsonz] {
+  color: #ffffff;
+}
+.logo a:hover[b-abdivpsonz] {
+  color: #ffffff;
+  transition: none;
 }
 
-.sidebar[b-u3sxtmbndz] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+/*# sourceMappingURL=Logo.razor.css.map */
+/* /Shared/NavBar.razor.rz.scp.css */
+.navbar ul[b-jzelge450k] {
+  margin: 0;
+}
+.navbar ul .nav-link[b-jzelge450k] {
+  color: #fff;
+  font-size: 13px;
+}
+.navbar ul .nav-link:hover[b-jzelge450k] {
+  color: #428587;
 }
 
-.top-row[b-u3sxtmbndz] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
+/*# sourceMappingURL=NavBar.razor.css.map */
+/* /Shared/SlickPage.razor.rz.scp.css */
+.slick-page[b-tabwq6fmhp] {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-    .top-row[b-u3sxtmbndz]  a, .top-row .btn-link[b-u3sxtmbndz] {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
-
-    .top-row a:first-child[b-u3sxtmbndz] {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-u3sxtmbndz] {
-        display: none;
-    }
-
-    .top-row.auth[b-u3sxtmbndz] {
-        justify-content: space-between;
-    }
-
-    .top-row a[b-u3sxtmbndz], .top-row .btn-link[b-u3sxtmbndz] {
-        margin-left: 0;
-    }
+.text[b-tabwq6fmhp] {
+  color: #ffffff;
+}
+.text h2[b-tabwq6fmhp] {
+  font-size: 37px;
+  color: #ffffff;
+}
+.text h3[b-tabwq6fmhp] {
+  font-size: 18px;
+  color: #ffffff;
 }
 
-@media (min-width: 641px) {
-    .page[b-u3sxtmbndz] {
-        flex-direction: row;
-    }
-
-    .sidebar[b-u3sxtmbndz] {
-        width: 250px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-    }
-
-    .top-row[b-u3sxtmbndz] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
-    .main > div[b-u3sxtmbndz] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
-    }
-}
-/* /Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-a5gmvfkn0x] {
-    background-color: rgba(255, 255, 255, 0.1);
+.has-bgc[b-tabwq6fmhp] {
+  background-color: #3d9be9;
+  opacity: 60%;
 }
 
-.top-row[b-a5gmvfkn0x] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.navbar-brand[b-a5gmvfkn0x] {
-    font-size: 1.1rem;
-}
-
-.oi[b-a5gmvfkn0x] {
-    width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -2px;
-}
-
-.nav-item[b-a5gmvfkn0x] {
-    font-size: 0.9rem;
-    padding-bottom: 0.5rem;
-}
-
-    .nav-item:first-of-type[b-a5gmvfkn0x] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-a5gmvfkn0x] {
-        padding-bottom: 1rem;
-    }
-
-    .nav-item[b-a5gmvfkn0x]  a {
-        color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        line-height: 3rem;
-    }
-
-.nav-item[b-a5gmvfkn0x]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
-
-.nav-item[b-a5gmvfkn0x]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
-
-@media (min-width: 641px) {
-    .navbar-toggler[b-a5gmvfkn0x] {
-        display: none;
-    }
-
-    .collapse[b-a5gmvfkn0x] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
-}
+/*# sourceMappingURL=SlickPage.razor.css.map */
