@@ -1,5 +1,9 @@
 /* /Shared/Business.razor.rz.scp.css */
-
+@media screen and (max-width: 575px) {
+  img[b-w1p10kc508] {
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=Business.razor.css.map */
 /* /Shared/ClassInfo.razor.rz.scp.css */
@@ -44,6 +48,19 @@ ul > li > a:hover[b-nprtiicbst] {
 }
 
 /*# sourceMappingURL=ClassLink.razor.css.map */
+/* /Shared/Footer.razor.rz.scp.css */
+.ft[b-1i51ebwc0r] {
+  background-color: #ccc;
+  border-top: 3px solid black;
+}
+.ft li[b-1i51ebwc0r] {
+  text-decoration: none;
+}
+.ft li a[b-1i51ebwc0r] {
+  color: #000;
+}
+
+/*# sourceMappingURL=Footer.razor.css.map */
 /* /Shared/Logo.razor.rz.scp.css */
 .logo[b-abdivpsonz] {
   display: flex;
