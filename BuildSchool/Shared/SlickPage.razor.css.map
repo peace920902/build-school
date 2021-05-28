@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["SlickPage.razor.scss"],"names":[],"mappings":"AAAC;EACC;EACA;EACA;;;AAGF;EACE;;AAEA;EACE;EACA;;AAGF;EACE;EACA;;;AAIJ;EACE;EACA","file":"SlickPage.razor.css"}
+{"version":3,"sourceRoot":"","sources":["SlickPage.razor.scss"],"names":[],"mappings":"AAAC;EACC;EACA;EACA;EACA;;AAEA;EACE;EACA;;AAEA;EACE;EACA;;AAGF;EACE;EACA;;AAGF;EACE;;AAKF;EACE;;AAGF;EACE;;;AAKN;EACE;IACE;IACA","file":"SlickPage.razor.css"}

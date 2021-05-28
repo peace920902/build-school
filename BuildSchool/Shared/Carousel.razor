@@ -1,6 +1,7 @@
 ﻿@using BuildSchool.Models
 <div>
     <AntDesign.Carousel Autoplay="TimeSpan.FromSeconds(10)">
+   
         @foreach (var slick in _bannerData)
         {
             <SlickPage Data="@slick" ImagePath="@(slick.ImgPath)"></SlickPage>
@@ -16,16 +17,60 @@
         }
 </style>
 
-
 @code {
 
-    private readonly List<BannerData> _bannerData = new List<BannerData>()
+    private readonly List<BannerData> _bannerData = new()
     {
-        new BannerData()
+        new BannerData
         {
             Title = @<span>軟體工程師的路上<br/>有人帶</span>,
-            SubTitle = @<span>START CODING AND GET COACHED FROM MENTORS</span>,
+            SubTitle = @<span>START CODING AND GET COACHED FROM <br/>MENTORS</span>,
             ImgPath = "images/banner-01.png"
+        },
+        new BannerData
+        {
+            Title = @<span>大量的程式練習<br/>才能積累經驗</span>,
+            SubTitle = @<span>PRACTICE MAKES PERFECT</span>,
+            ImgPath = "images/banner-02.png"
+        },
+        new BannerData
+        {
+            Title = @<span>想搭上火箭? <br/>門票是給想成為軟體工程師的你</span>,
+            SubTitle = @<span class="has-bgc">BUILD SCHOOL - DEVELOPER CAREER BUILDER</span>,
+            ImgPath = "images/banner-03.png",
+        },
+        new BannerData
+        {
+            Title = @<span class="has-bgc">動手做出東西<br/>才能解決問題</span>,
+            SubTitle = @<span>BUILD SOMETHING AND SOLVE THE PROBLEM, <br/>THAT'S MY STYLE</span>,
+            ImgPath = "images/banner-04.png",
+ 
+        },
+        new BannerData
+        {
+            Title = @<span class="has-bgc">這裏沒有考試<br/>只有滿滿的程式碼</span>,
+            SubTitle = @<span>NO TEST BUT YOUR CODES</span>,
+            ImgPath = "images/banner-05.png",
+
+        },
+        new BannerData
+        {
+            Title = @<span>BUILD SCHOOL</span>,
+            SubTitle = @<span>Build School 是軟體開發教育的先鋒 為您打造更有競爭力的職涯</span>,
+            ImgPath = "images/banner-06.png"
+        },
+        new BannerData
+        {
+            Title = @<span>前往峰頂的路上<br/>有人帶!</span>,
+            SubTitle = @<span class="has-bgc">START CODING AND GET COACHED <br/>FROM MENTORS</span>,
+            ImgPath = "images/banner-07.png",
+        
+        },
+        new BannerData
+        {
+            Title = @<span>BUILD SCHOOL</span>,
+            SubTitle = @<span>Build School is a pioneer of software developer <br/>education and career builder for engineers</span>,
+            ImgPath = "images/banner-08.png"
         }
     };
 

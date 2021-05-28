@@ -1,0 +1,25 @@
+﻿@using AntDesign
+@using System.Collections
+<div class="class-info p-lg-2 p-xl-0 col-sm-12 col-md-3 d-flex flex-column align-items-center">
+    <div class="mb-2 time text-center fw-bolder">
+        @Data.Time
+    </div>
+    <div class="mb-2 d-flex justify-content-center">
+        <img src="@Data.ImagePath" alt="">
+    </div>
+    <h3>@Data.Title</h3>
+    <ul class="ps-0 col-3 col-md-5 d-flex flex-column">
+        @foreach (var item in Data.Description)
+        {
+            <li class="">
+                @item
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    [Parameter]
+    public Models.ClassData Data { get; set; }
+
+}

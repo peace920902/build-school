@@ -8,7 +8,5 @@ namespace BuildSchool.Models
         public RenderFragment SubTitle { get; set; }
         public string ImgPath { get; set; }
         public bool IsEnglish { get; set; }
-        public bool TitleHasBgc { get; set; }
-        public bool SubTitleHasBgc { get; set; }
     }
 }

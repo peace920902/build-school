@@ -10,6 +10,7 @@
   padding: 0;
   margin: 0;
   font-size: 30px;
+  white-space: nowrap;
   color: #fff;
 }
 .logo .text h2 {

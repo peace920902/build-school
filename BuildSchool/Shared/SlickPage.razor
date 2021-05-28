@@ -1,21 +1,27 @@
 ﻿@using AntDesign
 @using BuildSchool.Models
 <CarouselSlick>
-    <div class="slick-page" style="@ImagePath">
-        <div class="text">
-            <h2 class="@(Data.TitleHasBgc ? "has-bgc" : string.Empty)">@Data.Title</h2>
-            <h3 class="@(Data.SubTitleHasBgc ? "has-bgc" : string.Empty)">@Data.SubTitle</h3>
+    <div class="slick-page d-flex justify-content-center align-items-center w-100" style="@ImagePath">
+        <div class="content w-100">
+            <div class="text w-100 mb-lg-5 mb-md-3 @(Data.IsEnglish ? "eng" : string.Empty)">
+                <h2>@Data.Title</h2>
+                <h3>@Data.SubTitle</h3>
+            </div>
+            
+                <div class="row justify-content-center">
+                    <ClassLink Class="col-12 col-md-9 col-lg-9 col-xl-7" IsEnglish="@Data.IsEnglish"></ClassLink>
+                </div>
+         
         </div>
-        <ClassLink IsEnglish="@Data.IsEnglish"></ClassLink>
     </div>
 </CarouselSlick>
 
 @code {
     private string _imagePath;
-    
+
     [Parameter]
     public BannerData Data { get; set; }
-    
+
     [Parameter]
     public string ImagePath
     {

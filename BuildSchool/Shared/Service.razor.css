@@ -1,0 +1,18 @@
+.row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.photo h2 {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.text h3 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.text p {
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=Service.razor.css.map */

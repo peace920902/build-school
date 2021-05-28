@@ -1,0 +1,67 @@
+﻿@using BuildSchool.Models
+
+
+
+<div class="container-fluid mt-5 mb-5">
+    <div class="row">
+        @foreach (var data in _data)
+        {
+            <ClassInfo Data="@data"></ClassInfo>
+        }
+    </div>
+</div>
+
+
+@code {
+
+    private List<ClassData> _data = new()
+    {
+        new ClassData()
+        {
+            Time = "第 1 - 4 個月",
+            ImagePath = "images/c-1.svg",
+            Title = "程式基礎教學",
+            Description = new List<string>
+            {
+                "業界實戰講師",
+                "企業主管/創業家/CTO 演講"
+            }
+        },
+        new ClassData()
+        {
+            Time = "第 5 - 6 個月",
+            ImagePath = "images/c-2.svg",
+            Title = "專案及作品導向實作",
+            Description = new List<string>
+            {
+                "Web / App 作品開發 - 企業導師指導",
+                "不只是 Demo - 真實可運作成果",
+                "團隊開發 - 真實軟體開發團隊的運作及分工 (Agile敏捷, kanban 看板, CI 自動化建置)"
+            }
+        },
+        new ClassData()
+        {
+            Time = "第 6 - 7 月",
+            ImagePath = "images/c-3.svg",
+            Title = "作品發表",
+            Description = new List<string>
+            {
+                "簡報 Demo 及溝通技巧",
+                "作品及程式碼講解",
+                "個人履歷準備 – GitHub, CodePen …"
+            }
+        },
+        new ClassData()
+        {
+            Time = "未來及展望",
+            ImagePath = "images/c-4.png",
+            Title = "就業及企業導師諮詢",
+            Description = new List<string>
+            {
+                "就業媒合或未來職涯諮詢",
+                "企業導師 -人際連結及資源"
+            }
+        }
+    };
+
+}

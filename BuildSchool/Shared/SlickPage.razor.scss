@@ -1,24 +1,44 @@
-﻿.slick-page{
-  height: 90vh;
+﻿.slick-page {
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-wrap: wrap;
+
+  .text {
+    color: #ffffff;
+    font-weight: bolder;
+
+    h2 {
+      font-size: 37px;
+      color: #ffffff;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: #ffffff;
+    }
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .text.eng {
+    h2 {
+      font-size: 77px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+  }
 }
 
-.text{
-  color: #ffffff;
-  
-  h2{
-    font-size: 37px;
-    color: #ffffff;
-  }
-  
-  h3{
-    font-size: 18px;
-    color: #ffffff;
+@media screen and (min-width: 992px) {
+  .slick-page {
+    background-size: cover;
+    height: 90vh;
   }
 }
 
-.has-bgc{
-  background-color: #3d9be9;
-  opacity: 60.0%;
-}
+

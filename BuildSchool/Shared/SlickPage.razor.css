@@ -1,24 +1,36 @@
 .slick-page {
-  height: 90vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-wrap: wrap;
 }
-
-.text {
+.slick-page .text {
   color: #ffffff;
+  font-weight: bolder;
 }
-.text h2 {
+.slick-page .text h2 {
   font-size: 37px;
   color: #ffffff;
 }
-.text h3 {
+.slick-page .text h3 {
   font-size: 18px;
   color: #ffffff;
 }
+.slick-page .text span {
+  display: inline-block;
+}
+.slick-page .text.eng h2 {
+  font-size: 77px;
+}
+.slick-page .text.eng h3 {
+  font-size: 20px;
+}
 
-.has-bgc {
-  background-color: #3d9be9;
-  opacity: 60%;
+@media screen and (min-width: 992px) {
+  .slick-page {
+    background-size: cover;
+    height: 90vh;
+  }
 }
 
 /*# sourceMappingURL=SlickPage.razor.css.map */

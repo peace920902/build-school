@@ -2,11 +2,20 @@
   margin: 0;
 }
 .navbar ul .nav-link {
+  background-color: rgba(32, 95, 41, 0.83);
   color: #fff;
   font-size: 13px;
+  text-align: center;
+  padding: 5px;
 }
 .navbar ul .nav-link:hover {
   color: #428587;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar ul .nav-link {
+    background-color: transparent;
+  }
 }
 
 /*# sourceMappingURL=NavBar.razor.css.map */

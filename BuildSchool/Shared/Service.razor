@@ -1,0 +1,24 @@
+﻿@using BuildSchool.Models
+<div class="row justify-content-md-around pt-5 pb-5">
+    <div class="photo col-lg-4 col-md-5 col-sm-12 justify-content-center">
+        <div class="col-12 text-center">
+            <img src="@Data.ImagePath" alt="@Data.ImageTitle">
+            <h2>@Data.ImageTitle</h2>
+        </div>
+        <div class="col-12">
+            @Data.ImageDescription
+        </div>
+    </div>
+    <div class="text col-lg-4 col-md-5 col-sm-12 justify-content-center">
+        <div class="m-auto">
+            <h3 class="text-center">@Data.TextTitle</h3>
+            <p>@Data.Text</p>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public ServiceData Data { get; set; }
+
+}

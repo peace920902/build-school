@@ -1,0 +1,18 @@
+.class-info .time {
+  font-size: 18px;
+}
+.class-info img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.class-info h3 {
+  font-size: 18px;
+  color: #f50038;
+  text-align: center;
+}
+.class-info li {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=ClassInfo.razor.css.map */
