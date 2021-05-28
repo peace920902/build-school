@@ -1,3 +1,7 @@
+/* /Shared/Business.razor.rz.scp.css */
+
+
+/*# sourceMappingURL=Business.razor.css.map */
 /* /Shared/ClassInfo.razor.rz.scp.css */
 .class-info .time[b-9cbpt79z4r] {
   font-size: 18px;
@@ -193,3 +197,12 @@ img[b-cpnwvhm8v6] {
 }
 
 /*# sourceMappingURL=Slogan.razor.css.map */
+/* /Shared/Tool.razor.rz.scp.css */
+.photo[b-2cwr64zm05] {
+  height: 200px;
+}
+.photo img[b-2cwr64zm05] {
+  display: block;
+}
+
+/*# sourceMappingURL=Tool.razor.css.map */
