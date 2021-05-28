@@ -1,0 +1,12 @@
+.ft {
+  background-color: #ccc;
+  border-top: 3px solid black;
+}
+.ft li {
+  text-decoration: none;
+}
+.ft li a {
+  color: #000;
+}
+
+/*# sourceMappingURL=Footer.razor.css.map */

@@ -1,6 +1,6 @@
 ﻿@using BuildSchool.Models
-<div class="col-12 col-md-6 col-lg-3 mt-5 mb-5">
-    <div class="photo d-flex flex-column justify-content-around">
+<div class="col-12 col-md-6 col-lg-3 mt-5 mb-5 d-flex flex-column align-items-center">
+    <div class="photo d-flex flex-column justify-content-around align-items-center">
         <div>
             <img src="@Data.MainImgPath" alt="@Data.Title">
         </div>
@@ -13,8 +13,6 @@
 </div>
 
 @code {
-
     [Parameter]
     public ToolData Data { get; set; }
-
 }
