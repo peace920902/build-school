@@ -1,0 +1,20 @@
+﻿@using BuildSchool.Models
+<div class="col-12 col-md-6 col-lg-3 mt-5 mb-5">
+    <div class="photo d-flex flex-column justify-content-around">
+        <div>
+            <img src="@Data.MainImgPath" alt="@Data.Title">
+        </div>
+        <div>
+            <img src="@Data.SubImgPath" alt="@Data.Title">
+        </div>
+    </div>
+    <h3>@Data.Title</h3>
+    <p>@Data.Content</p>
+</div>
+
+@code {
+
+    [Parameter]
+    public ToolData Data { get; set; }
+
+}

@@ -7,4 +7,24 @@
 <Schedule></Schedule>
 <Slogan Title="在課程及作品實作中，將採用這些工具 - 熟悉實務上軟體開發團隊的運作、分工及真實專案的流程"
         ImagePath="images/asset-7.png"></Slogan>
+<Tools></Tools>
+<Slogan Title="我們的講師及企業導師擁有在這些公司的工作經歷、擔任主管或資深工程師"
+        ImagePath="images/asset-7.png"></Slogan>
+<Business ImagePath="@_businessImgPath"></Business>
 @Body
+
+@code{
+
+        private readonly IEnumerable<string> _businessImgPath = new List<string>()
+        {
+                "images/asset-17.png",
+                "images/asset-19.png",
+                "images/asset-21.png",
+                "images/asset-24.png",
+                "images/asset-18.png",
+                "images/asset-20.png",
+                "images/asset-22.png",
+                "images/asset-23.png",
+        };
+
+}
