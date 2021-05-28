@@ -42,9 +42,27 @@ a, .btn-link {
     z-index: 1000;
 }
 
-    #blazor-error-ui .dismiss {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
-    }
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 0.75rem;
+    top: 0.5rem;
+}
+
+.has-bgc{
+    background-color: #3d9be9;
+    opacity: 60.0%;
+}
+
+.slick-page .text span {
+    display: inline-block;
+    padding: 15px;
+}
+
+.fz-28{
+    font-size: 28px;
+}
+
+.fz-17{
+    font-size: 17px;
+}
